@@ -1,6 +1,8 @@
 # Aplicación NASA APOD
 
 Esta aplicación utiliza la API de la NASA APOD (Astronomy Picture of the Day) para mostrar imágenes y descripciones de la astronomía.
+![Imagen de la Pagina](img/pagina.png)
+
 
 ## Cómo funciona
 
