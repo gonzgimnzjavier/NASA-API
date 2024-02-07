@@ -31,3 +31,7 @@ El código utiliza bloques `try/catch` para manejar errores durante la obtenció
 ### Caso de error
 
 Un caso que provocaría un error sería si la API de la NASA no está disponible o si la fecha proporcionada por el usuario no tiene una imagen disponible. En este caso, la aplicación mostrará un mensaje de error al usuario.
+
+### Deployment
+
+Para ver la página deployada visitar: [Página deployada](https://gonzgimnzjavier.github.io/NASA-API/)
