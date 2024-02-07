@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API NASA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/icon.webp">
+</head>
+<body>
+    <div class="container">
+        <img src="img/nasa.png" alt="Logo Nasa" class="logo">
+        <select id="apiSelection">
+            <option value="1">Get con Promise a API de texto</option>
+            <option value="2">Get con Promise a la API de imagen</option>
+            <option value="3">Get con Async/Await a la API de texto</option>
+            <option value="4">Get con Async/Await a la API de imagen</option>
+        </select>
+        <input type="text" id="searchQuery" placeholder="Ingresar la fecha en formato AÑO-MES-DIA...">
+        <button id="fetchButton">Buscar</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
